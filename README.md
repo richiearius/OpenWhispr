@@ -11,7 +11,7 @@
 ---
 
 <p align="center">
-  <video src="https://github.com/MrPrinceRawat/OpenWhispr/raw/main/assets/demo/demo.mov" width="600" />
+  <img src="assets/demo/demo.gif" width="600" alt="OpenWhispr demo" />
 </p>
 
 ## What is this
