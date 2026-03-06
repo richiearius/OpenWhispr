@@ -1,2 +1,9 @@
 backup/
 *.gguf
+.DS_Store
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+openspec/
+*.dmg
